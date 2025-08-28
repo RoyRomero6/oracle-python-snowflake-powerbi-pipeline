@@ -29,14 +29,16 @@ El objetivo principal del proyecto es responder las siguientes **4 preguntas est
    - Los datos se consultan y exportan desde Oracle.  
 
    📷 *Ejemplo tabla Oracle:*  
-   ![Tabla Oracle](SQL/Empleado.png)  
+   ![Tabla Oracle](SQL/Empleado.png)
+   ![Tabla Oracle](SQL/Departamento.png)  
+   ![Tabla Oracle](SQL/Hechos.png)    
 
 ---
 
 2. **Transformación - Python**  
    - Se emplea `pandas` para limpiar y transformar los datos.  
    - Se usa `oracledb` para conectarse a Oracle y extraer la información.  
-
+   - En total se crearon 3 archivos .csv con nombres OraDepartamento.csv,OraEmpleados.csv y OraHechos.csv que posteriormente se van a usar en   SnowSQL para agregarlos al DataWarehouse en Snowflake
    📂 Archivos principales:  
    - `Python/FromOracleTopython.ipynb` → Extracción y transformación de datos.  
    - `Python/OraEmpleados.csv`, `Python/OraDepartamentos.csv`, `Python/OraHechos.csv`.  
@@ -46,9 +48,9 @@ El objetivo principal del proyecto es responder las siguientes **4 preguntas est
 3. **Carga - Snowflake**  
    - Los datos procesados en CSV se cargan a **Snowflake**.  
    - Se crean **stages y tablas** para gestionar los datos.  
-
+   - Abajo esta una de las tablas que se va a agregar a snowflake
    📷 *Ejemplo creación de tabla:*  
-   ![Creación de tabla](Snowflake/SnowSQL/Creando-Tabla1.png)  
+   ![Creación de tabla](Snowflake/SnowSQL/Agregando-OraDepartamento.png)  
 
    📂 Archivos:  
    - `Snowflake/SnowSQL/Creando-Stage.png`  
