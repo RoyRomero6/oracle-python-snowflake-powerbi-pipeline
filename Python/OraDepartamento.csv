@@ -1,0 +1,16 @@
+ID_DEPARTAMENTO,NOMBRE_DEPARTAMENTO,UBICACION,TIPO_DEPARTAMENTO
+1,Finanzas,Bogotá,Administrativo
+2,Recursos Humanos,Bogotá,Administrativo
+3,Tecnología,Medellín,Operativo
+4,Ventas,Cali,Comercial
+5,Logística,Barranquilla,Operativo
+6,Compras,Bogotá,Administrativo
+7,Servicio al Cliente,Medellín,Comercial
+8,Marketing,Cali,Comercial
+9,Calidad,Bogotá,Operativo
+10,Legal,Bogotá,Administrativo
+11,Investigación y Desarrollo,Medellín,Operativo
+12,Producción,Cali,Operativo
+13,Auditoría Interna,Bogotá,Administrativo
+14,Planeación Estratégica,Bogotá,Administrativo
+15,Atención Postventa,Barranquilla,Comercial
