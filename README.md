@@ -38,8 +38,10 @@ El objetivo principal del proyecto es responder las siguientes **4 preguntas est
 2. **Transformación - Python**  
    - Se emplea `pandas` para limpiar y transformar los datos.  
    - Se usa `oracledb` para conectarse a Oracle y extraer la información.  
-   - En total se crearon 3 archivos .csv con nombres OraDepartamento.csv,OraEmpleados.csv y OraHechos.csv que posteriormente se van a usar en   SnowSQL para agregarlos al DataWarehouse en Snowflake
-   📂 Archivos principales:  
+   - En total se crearon 3 archivos .csv con nombres OraDepartamento.csv,OraEmpleados.csv y OraHechos.csv.
+   - Posteriormente se van a usar en SnowSQL para agregarlos al DataWarehouse en Snowflake
+
+    📂 Archivos principales:  
    - `Python/FromOracleTopython.ipynb` → Extracción y transformación de datos.  
    - `Python/OraEmpleados.csv`, `Python/OraDepartamentos.csv`, `Python/OraHechos.csv`.  
 
